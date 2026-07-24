@@ -218,4 +218,124 @@ nav a:hover{
 
     object-fit:cover;
 
+}/* ---------- PROJECTS ---------- */
+
+.projects{
+
+    padding:120px 8%;
+
+}
+
+.section-title{
+
+    margin-bottom:90px;
+
+}
+
+.section-title p{
+
+    color:#999;
+
+    letter-spacing:3px;
+
+    font-size:13px;
+
+    margin-bottom:12px;
+
+}
+
+.section-title h2{
+
+    font-size:52px;
+
+    font-weight:600;
+
+}
+
+.project-card{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+    gap:80px;
+
+    margin-bottom:140px;
+
+}
+
+.project-card.reverse{
+
+    flex-direction:row-reverse;
+
+}
+
+.project-info{
+
+    flex:1;
+
+}
+
+.project-info span{
+
+    color:#777;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    font-size:13px;
+
+}
+
+.project-info h3{
+
+    font-size:52px;
+
+    margin:20px 0;
+
+}
+
+.project-info p{
+
+    color:#666;
+
+    line-height:2;
+
+    margin-bottom:35px;
+
+}
+
+.project-info a{
+
+    text-decoration:none;
+
+    color:#111;
+
+    font-weight:600;
+
+}
+
+.project-image{
+
+    flex:1;
+
+}
+
+.project-image img{
+
+    width:100%;
+
+    border-radius:28px;
+
+    transition:.5s;
+
+}
+
+.project-image img:hover{
+
+    transform:scale(1.02);
+
 }
